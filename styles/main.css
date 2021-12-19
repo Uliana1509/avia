@@ -29,3 +29,42 @@ main .main-text p {
   margin-top: 40px;
   margin-left: 26vw;
 }
+
+main .questions {
+  margin-top: 78px;
+
+  background: #fff8e9;
+}
+
+main .questions__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .questions__wrapper img {
+  width: calc(50%-53%);
+}
+
+main .questions__wrapper form {
+  text-align: center;
+  width: 50%;
+}
+
+main .questions__wrapper form h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: var(--black);
+
+  margin-bottom: 20px;
+}
+main .questions__wrapper form p {
+  margin-top: 0;
+}
+
+main .questions__wrapper form p.bold {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
