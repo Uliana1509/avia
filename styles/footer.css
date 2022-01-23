@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--orange);
+  padding: 100px;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
