@@ -51,12 +51,15 @@ footer .footer_wrapper .contacts ul li {
   padding-left: 34px;
 
   position: relative;
+
+  margin-bottom: 10px;
 }
 
 footer .footer_wrapper .contacts ul li a {
   display: block;
   all: inherit;
   padding-left: 0;
+  margin-bottom: 3px;
 }
 
 footer .footer_wrapper .contacts ul li::before {
@@ -69,4 +72,20 @@ footer .footer_wrapper .contacts ul li::before {
   background: #3e3b3b;
   left: 0;
   top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_wrapper .contacts ul li.adress::before {
+  content: url(../img/maps-and-flags\ 1.svg);
+}
+
+footer .footer_wrapper .contacts ul li.tel::before {
+  content: url(../img/Vector\ 3.svg);
+}
+
+footer .footer_wrapper .contacts ul li.adress2::before {
+  content: url(../img/Group.svg);
 }
